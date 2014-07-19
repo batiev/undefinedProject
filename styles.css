@@ -78,16 +78,35 @@ li:hover{
 	position: relative;
 }
 #description{
-	margin: 0 auto;
-	width: 80%;
-	max-width: 1200px;
+	float: left;
+	width: 70%;
+	max-width: 840px;
 	height: auto;
 	position: relative;
 }
 #description p{
 	font-family: 'Indie Flower', cursive;
 	font-size: 1.5em;
-	text-align: center;
 	font-weight: lighter;
-	float: left;
+	padding-left: 40px;
+}
+#photo{
+	width: 28%;
+	max-width: 360px;
+	float: right;
+	margin-left: 2%;
+}
+#photo img{
+  	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#photo img:hover {
+  -webkit-filter: sepia(100%) 
 }
