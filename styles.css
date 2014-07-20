@@ -59,21 +59,19 @@ li a{
 	font-size: 1.2em;
 	color: white;
 }
-li:hover{
-	margin-top: 4px;
+ul li a:hover{
+	color: grey;
 }
 #wrapper{
 	width: 100%;
 	max-width: 1200px;
-	height: auto !important; 
-	position: relative;
+	height: 456px;
 	margin-top: 0px;
 	margin: 0 auto;
 }
 #main{
 	width: 100%;
 	max-width: 1200px;
-	height: auto !important;
 	margin: 0 auto;
 	position: relative;
 }
@@ -95,6 +93,7 @@ li:hover{
 	max-width: 360px;
 	float: right;
 	margin-left: 2%;
+	margin-top: 30px;
 }
 #photo img{
   	-webkit-transition: all 1s ease;
@@ -106,7 +105,16 @@ li:hover{
     -moz-border-radius: 50%;
     border-radius: 50%;
     border: 3px solid black;
+    -webkit-filter: brightness(50%); 
 }
 #photo img:hover {
-  -webkit-filter: sepia(100%) 
+  -webkit-filter: grayscale(0%); 
+}
+#footer{
+	background-color: black;
+	opacity: 0.8;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
 }
