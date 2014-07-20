@@ -65,7 +65,7 @@ ul li a:hover{
 #wrapper{
 	width: 100%;
 	max-width: 1200px;
-	height: 456px;
+	height: 455px;
 	margin-top: 0px;
 	margin: 0 auto;
 }
@@ -114,7 +114,33 @@ ul li a:hover{
 	background-color: black;
 	opacity: 0.8;
 	bottom: 0;
-	height: 100px;
+	height: 101px;
 	width: 100%;
 	margin: 0 auto;
+}
+.copy{
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	color: white;
+	float: left;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.social{
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	color: white;
+	float: left;
+	width: 360px;
+	height: 100%:;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.social-icon{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin: 5px 5px 0 0;
 }
