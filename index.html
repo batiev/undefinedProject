@@ -2,17 +2,20 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/jcarousel.basic.js"></script>
+		<link rel="stylesheet" type="text/css" href="jcarousel.basic.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="js/jcarousel.basic.js"></script>
 		<meta charset="UTF-8">
 		<title>Batiiev Bohdan</title>
 	</head>
 	<body>
-		<div id="navtop">
+		<header>
 			<div id="container">
 				<a>
 					<h1 class="top_logo">
@@ -29,9 +32,9 @@
 					</ul>
 				</nav>
 			</div>
-		</div>
-		<div id="wrapper">
-			<div id="about" class="page">
+		</header>
+		<section>
+			<article id="about" class="page">
 				<div id="description">
 					<p>Hi there! Welcome to my site...<br> My name is Bohdan Batiiev. I was born in Ukraine on December 9th 1993 at 12.35 PM and since that moment I knew that I want to create something beatiful. In high school I was very interested in programming, so I decided to learn web development and create beatiful and useful web applications. After school I entered to the National Technical University of Ukraine "Kyiv Politechnic Institute" and after four years I got my Bachelor's degree. And now my dream comes true - I am web developer. I'm coding on JavaScript, in particular on EmberJS and JQuery and Ruby (Ruby on Rails). So if you want to have your own web site, contact with me and I promise to create for you beatiful site.</p>
 				</div>
@@ -40,48 +43,47 @@
 						<img src="images/bodya-square.jpg" alt="author-photo">
 					</div>
 				</div>
-			</div>
-			<div id="portfolio" class="page">
+			</article>
+			<article id="portfolio" class="page wrapper">
 				<h2>This is the best of my works.</h2>
-				<div class="jcarousel">
-                    <ul>
-                        <li><img src="images/img1.jpg" width="600" height="400" alt=""></li>
-                        <li><img src="images/img2.jpg" width="600" height="400" alt=""></li>
-                        <li><img src="images/img3.jpg" width="600" height="400" alt=""></li>
-                        <li><img src="images/img4.jpg" width="600" height="400" alt=""></li>
-                        <li><img src="images/img5.jpg" width="600" height="400" alt=""></li>
-                        <li><img src="images/img6.jpg" width="600" height="400" alt=""></li>
-                    </ul>
+				<div class="jcarousel-wrapper">
+                	<div class="jcarousel">
+	                	<ul>
+	                        <li><img src="images/img1.jpg" width="600" height="400" alt=""></li>
+	                        <li><img src="images/img2.jpg" width="600" height="400" alt=""></li>
+	                        <li><img src="images/img3.jpg" width="600" height="400" alt=""></li>
+	                        <li><img src="images/img4.jpg" width="600" height="400" alt=""></li>
+	                        <li><img src="images/img5.jpg" width="600" height="400" alt=""></li>
+	                        <li><img src="images/img6.jpg" width="600" height="400" alt=""></li>
+	                    </ul>
+                	</div>
+		                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+		                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
                 </div>
-                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-                
-                <p class="jcarousel-pagination">
-                    
-                </p>
-			</div>
-			<div id="begin" class="page">
+			</article>
+			<article id="begin" class="page">
 				<h2>A few years ago I was only junior developer, I didn't know simple things, I couldn't simple page's markup
 				and others. So now, I want to give my knownledge to all junior developers.</h2>
-			</div>
-			<div id="blog" class="page">
+			</article>
+			<article id="blog" class="page">
+				<h2>First post</h2>
+				<
+			</article>
+			<article id="contact" class="page">
 				
-			</div>
-			<div id="contact" class="page">
-				
-			</div>
-		</div>
-		<div id="footer">
+			</article>
+		</section>
+		<footer>
 			<span class="copy">&copy;Bohdan Batiiev</span>
 			<div class="social">
 				<p>Find me in social networks. I'm always online:)</p>
-				<a href="vk.com/bodyabatiev" class="social-icon vk"><img src="images/Facebook-32.png" alt="vk" /></a>
-				<a href="vk.com/bodyabatiev" class="social-icon fb"><img src="images/Twitter-32.png" alt="vk" /></a>
+				<a href="http://vk.com/bodyabatiev" class="social-icon vk"><img src="images/Facebook-32.png" alt="vk" /></a>
+				<a href="http://twitter.com/bodyabatiev" class="social-icon fb"><img src="images/Twitter-32.png" alt="vk" /></a>
 				<a href="vk.com/bodyabatiev" class="social-icon twitter"><img src="images/YouTube_01-32.png" alt="vk" /></a>
 				<a href="vk.com/bodyabatiev" class="social-icon insta"><img src="images/GooglePlus-32.png" alt="vk" /></a>
-				<a href="vk.com/bodyabatiev" class="social-icon youtube"><img src="images/Instagram-32.png" alt="vk" /></a>
+				<a href="http://instagram.com/bodyabatiev" class="social-icon youtube"><img src="images/Instagram-32.png" alt="vk" /></a>
 				<a href="vk.com/bodyabatiev" class="social-icon google"><img src="images/Vine-32.png" alt="vk" /></a>
 			</div>
-		</div>
+		</footer>
 	</body>
 </html>
